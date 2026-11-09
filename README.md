@@ -61,7 +61,7 @@ Total GEMM operations: 48570
 Total GPU compute time: 179.36 seconds
 Average FP16 performance: 37.219 TFLOPS
 Validation: PASS
-=============================== ```text
+===================================
 
 ## Note:
 Minor follow-up: I also tested a hard lock at 1605 MHz / 0.750 V. 
