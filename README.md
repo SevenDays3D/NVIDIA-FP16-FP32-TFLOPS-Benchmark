@@ -31,6 +31,7 @@ A lightweight, sustained-load benchmark for measuring FP16 Tensor Core performan
 ## How to Run
 1. Create a folder in the desired location named TensorBench and place the GPU_Benchmark_180s.c.u.t.w.exe file there.
 2. Download the cuBLAS.and.cuDNN_CUDA12_win_v3.7z archive and unzip the contents into the TensorBench folder next to the GPU_Benchmark_180s.c.u.t.w.exe file.
+- https://github.com/Purfview/whisper-standalone-win/releases/download/libs/cuBLAS.and.cuDNN_CUDA12_win_v3.7z
 3. Run the GPU_Benchmark_180s.c.u.t.w.exe file.
 
 *Note: 
