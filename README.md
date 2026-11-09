@@ -1,7 +1,9 @@
-Создайте папку в нужном вам месте, положите туда файл GPU_Benchmark_180s.c.u.t.w.exe
-Скачайте архив cuBLAS.and.cuDNN_CUDA12_win_v3.7z и распакуйте содержимое в папку с файлом GPU_Benchmark_180s.c.u.t.w.exe 
-Запустите файл GPU_Benchmark_180s.c.u.t.w.exe
------------------------------------------
+1. Создайте папку в нужном вам месте с именем TensorBench, положите туда файл GPU_Benchmark_180s.c.u.t.w.exe
+
+2. Скачайте архив cuBLAS.and.cuDNN_CUDA12_win_v3.7z и распакуйте содержимое в папку TensorBench рядом с файлом GPU_Benchmark_180s.c.u.t.w.exe
+
+3. Запустите файл GPU_Benchmark_180s.c.u.t.w.exe
+-----
 # CUDA FP16 Tensor Core Benchmark with Telemetry
 
 A lightweight, sustained-load benchmark for measuring FP16 Tensor Core performance (TFLOPS) on NVIDIA GPUs using cuBLAS GEMM. Unlike synthetic spikes, this tool runs a continuous 180-second workload while monitoring real-time hardware telemetry: GPU Clock, Core Voltage (U), Temperature (T), and Board Power (W).
