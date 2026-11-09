@@ -21,7 +21,11 @@
 -----
 # CUDA FP16 Tensor Core Benchmark with Telemetry
 
-A lightweight, sustained-load benchmark for measuring FP16 Tensor Core performance (TFLOPS) on NVIDIA GPUs using cuBLAS GEMM. Unlike synthetic spikes, this tool runs a continuous 180-second workload while monitoring real-time hardware telemetry: GPU Clock, Core Voltage (U), Temperature (T), and Board Power (W).
+A lightweight benchmark for sustained GPU performance testing on NVIDIA graphics cards in FP16 and FP32 modes, using GEMM matrix operations through the cuBLAS library.
+
+The benchmark performs separate tests in both modes: FP16 using Tensor Cores and FP32 using CUDA Cores. This allows direct comparison of GPU performance across the two computational precisions and provides a measurable performance ratio between them.
+
+Unlike synthetic tests that generate short-lived peak loads, this benchmark maintains a sustained computational workload while continuously monitoring real-time GPU telemetry: GPU clock speed, core voltage, temperature, and total board power consumption.
 
 ## Features
 - **Real Performance:** Uses `cublasGemmEx` with `CUBLAS_COMPUTE_32F` and `CUBLAS_GEMM_DEFAULT_TENSOR_OP` to fully utilize Tensor Cores.
