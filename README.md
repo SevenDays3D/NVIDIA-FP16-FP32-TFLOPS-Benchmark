@@ -19,6 +19,11 @@ A lightweight, sustained-load benchmark for measuring FP16 Tensor Core performan
 - Windows OS (64-bit).
 - *(Optional but recommended)* NVIDIA Display Drivers installed (for NVML/NVAPI telemetry).
 
+## How to Run
+1. Create a folder in the desired location named TensorBench and place the GPU_Benchmark_180s.c.u.t.w.exe file there.
+2. Download the cuBLAS.and.cuDNN_CUDA12_win_v3.7z archive and unzip the contents into the TensorBench folder next to the GPU_Benchmark_180s.c.u.t.w.exe file.
+3. Run the GPU_Benchmark_180s.c.u.t.w.exe file.
+
 *Note: For accurate voltage and power readings, run the executable as Administrator.*
 
 ## Example Output
