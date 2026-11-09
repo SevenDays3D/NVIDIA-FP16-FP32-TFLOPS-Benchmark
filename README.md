@@ -38,27 +38,32 @@ Warming up GPU...
 Warmup complete.
 Starting 180-second test...
 
-Time:   10.0 s | Interval: 37.443 TFLOPS | Average: 37.443 TFLOPS | GEMM: 2720 | GPUClock: 1605 MHz | U: 0.750 V | T:55*C | Power: ~120 W
-Time:   20.0 s | Interval: 37.332 TFLOPS | Average: 37.388 TFLOPS | GEMM: 5430 | GPUClock: 1620 MHz | U: 0.750 V | T:57*C | Power: ~75 W
-Time:   30.0 s | Interval: 37.250 TFLOPS | Average: 37.342 TFLOPS | GEMM: 8110 | GPUClock: 1620 MHz | U: 0.750 V | T:59*C | Power: ~130 W
-Time:   40.1 s | Interval: 37.187 TFLOPS | Average: 37.303 TFLOPS | GEMM: 10810 | GPUClock: 1620 MHz | U: 0.750 V | T:60*C | Power: ~129 W
-Time:   50.1 s | Interval: 37.180 TFLOPS | Average: 37.279 TFLOPS | GEMM: 13510 | GPUClock: 1620 MHz | U: 0.750 V | T:61*C | Power: ~130 W
-Time:   60.1 s | Interval: 37.110 TFLOPS | Average: 37.250 TFLOPS | GEMM: 16200 | GPUClock: 1620 MHz | U: 0.750 V | T:62*C | Power: ~130 W
-Time:   70.1 s | Interval: 37.086 TFLOPS | Average: 37.227 TFLOPS | GEMM: 18890 | GPUClock: 1620 MHz | U: 0.750 V | T:62*C | Power: ~131 W
-Time:   80.1 s | Interval: 37.049 TFLOPS | Average: 37.205 TFLOPS | GEMM: 21580 | GPUClock: 1620 MHz | U: 0.750 V | T:62*C | Power: ~130 W
-Time:   90.1 s | Interval: 37.063 TFLOPS | Average: 37.189 TFLOPS | GEMM: 24270 | GPUClock: 1620 MHz | U: 0.750 V | T:62*C | Power: ~130 W
-Time:  100.2 s | Interval: 37.064 TFLOPS | Average: 37.176 TFLOPS | GEMM: 26960 | GPUClock: 1620 MHz | U: 0.750 V | T:62*C | Power: ~123 W
-Time:  110.2 s | Interval: 37.015 TFLOPS | Average: 37.162 TFLOPS | GEMM: 29650 | GPUClock: 1620 MHz | U: 0.750 V | T:62*C | Power: ~123 W
-Time:  120.2 s | Interval: 37.023 TFLOPS | Average: 37.150 TFLOPS | GEMM: 32340 | GPUClock: 1620 MHz | U: 0.750 V | T:62*C | Power: ~125 W
-Time:  130.2 s | Interval: 37.103 TFLOPS | Average: 37.147 TFLOPS | GEMM: 35030 | GPUClock: 1620 MHz | U: 0.750 V | T:62*C | Power: ~122 W
-Time:  140.2 s | Interval: 37.060 TFLOPS | Average: 37.140 TFLOPS | GEMM: 37720 | GPUClock: 1620 MHz | U: 0.750 V | T:62*C | Power: ~130 W
-Time:  150.3 s | Interval: 37.012 TFLOPS | Average: 37.132 TFLOPS | GEMM: 40410 | GPUClock: 1605 MHz | U: 0.750 V | T:62*C | Power: ~123 W
-Time:  160.3 s | Interval: 36.997 TFLOPS | Average: 37.123 TFLOPS | GEMM: 43100 | GPUClock: 1620 MHz | U: 0.750 V | T:62*C | Power: ~130 W
-Time:  170.3 s | Interval: 37.005 TFLOPS | Average: 37.116 TFLOPS | GEMM: 45790 | GPUClock: 1620 MHz | U: 0.750 V | T:62*C | Power: ~130 W
+Time:   10.0 s | Interval: 38.095 TFLOPS | Average: 38.095 TFLOPS | GEMM: 2770 | GPUClock: 1605 MHz | U: 0.750 V | T:50*C | Power: ~126 W
+Time:   20.1 s | Interval: 37.716 TFLOPS | Average: 37.905 TFLOPS | GEMM: 5510 | GPUClock: 1605 MHz | U: 0.750 V | T:54*C | Power: ~127 W
+Time:   30.1 s | Interval: 37.550 TFLOPS | Average: 37.787 TFLOPS | GEMM: 8240 | GPUClock: 1605 MHz | U: 0.750 V | T:56*C | Power: ~128 W
+Time:   40.1 s | Interval: 37.378 TFLOPS | Average: 37.685 TFLOPS | GEMM: 10950 | GPUClock: 1605 MHz | U: 0.750 V | T:58*C | Power: ~128 W
+Time:   50.1 s | Interval: 37.201 TFLOPS | Average: 37.588 TFLOPS | GEMM: 13650 | GPUClock: 1605 MHz | U: 0.750 V | T:59*C | Power: ~128 W
+Time:   60.1 s | Interval: 37.085 TFLOPS | Average: 37.504 TFLOPS | GEMM: 16340 | GPUClock: 1605 MHz | U: 0.750 V | T:60*C | Power: ~129 W
+Time:   70.1 s | Interval: 37.107 TFLOPS | Average: 37.448 TFLOPS | GEMM: 19030 | GPUClock: 1605 MHz | U: 0.750 V | T:61*C | Power: ~122 W
+Time:   80.1 s | Interval: 37.145 TFLOPS | Average: 37.410 TFLOPS | GEMM: 21730 | GPUClock: 1605 MHz | U: 0.750 V | T:61*C | Power: ~122 W
+Time:   90.2 s | Interval: 37.124 TFLOPS | Average: 37.378 TFLOPS | GEMM: 24430 | GPUClock: 1605 MHz | U: 0.750 V | T:62*C | Power: ~131 W
+Time:  100.2 s | Interval: 37.008 TFLOPS | Average: 37.341 TFLOPS | GEMM: 27120 | GPUClock: 1605 MHz | U: 0.750 V | T:62*C | Power: ~122 W
+Time:  110.2 s | Interval: 37.094 TFLOPS | Average: 37.319 TFLOPS | GEMM: 29810 | GPUClock: 1605 MHz | U: 0.750 V | T:62*C | Power: ~130 W
+Time:  120.2 s | Interval: 37.123 TFLOPS | Average: 37.302 TFLOPS | GEMM: 32510 | GPUClock: 1605 MHz | U: 0.750 V | T:62*C | Power: ~122 W
+Time:  130.3 s | Interval: 37.058 TFLOPS | Average: 37.284 TFLOPS | GEMM: 35200 | GPUClock: 1605 MHz | U: 0.750 V | T:62*C | Power: ~130 W
+Time:  140.3 s | Interval: 37.055 TFLOPS | Average: 37.267 TFLOPS | GEMM: 37890 | GPUClock: 1605 MHz | U: 0.750 V | T:62*C | Power: ~128 W
+Time:  150.3 s | Interval: 37.074 TFLOPS | Average: 37.254 TFLOPS | GEMM: 40580 | GPUClock: 1605 MHz | U: 0.750 V | T:63*C | Power: ~128 W
+Time:  160.3 s | Interval: 37.034 TFLOPS | Average: 37.241 TFLOPS | GEMM: 43270 | GPUClock: 1605 MHz | U: 0.750 V | T:63*C | Power: ~130 W
+Time:  170.3 s | Interval: 37.025 TFLOPS | Average: 37.228 TFLOPS | GEMM: 45960 | GPUClock: 1605 MHz | U: 0.750 V | T:63*C | Power: ~131 W
 
 ========== FINAL RESULTS ==========
-Total GEMM operations: 48390
-Total GPU compute time: 179.22 seconds
-Average FP16 performance: 37.109 TFLOPS
+Total GEMM operations: 48570
+Total GPU compute time: 179.36 seconds
+Average FP16 performance: 37.219 TFLOPS
 Validation: PASS
-===================================
+===============================
+
+## Note:
+Minor follow-up: I also tested a hard lock at 1605 MHz / 0.750 V. 
+Result: Average performance slightly increased to 37.219 TFLOPS (48,570 total GEMMs vs 48,390 previously) with zero micro-dips. 
+Conclusion: A slightly lower but strictly stable clock yields better average throughput than targeting the absolute edge of the OCP limit.
