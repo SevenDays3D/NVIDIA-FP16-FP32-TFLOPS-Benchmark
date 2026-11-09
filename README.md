@@ -1,6 +1,7 @@
 1. Создайте папку в нужном вам месте с именем TensorBench, положите туда файл GPU_Benchmark_180s.c.u.t.w.exe
 
 2. Скачайте архив cuBLAS.and.cuDNN_CUDA12_win_v3.7z и распакуйте содержимое в папку TensorBench рядом с файлом GPU_Benchmark_180s.c.u.t.w.exe
+Прямая ссылка на архив: https://github.com/Purfview/whisper-standalone-win/releases/download/libs/cuBLAS.and.cuDNN_CUDA12_win_v3.7z
 
 3. Запустите файл GPU_Benchmark_180s.c.u.t.w.exe
 -----
