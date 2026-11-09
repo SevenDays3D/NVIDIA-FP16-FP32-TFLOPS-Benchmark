@@ -5,13 +5,13 @@
 
 3. Запустите файл GPU_Benchmark_180s.c.u.t.w.exe
 
-* Note: 180s.c.u.t.w расшифровка названия 
+## Note: 180s.c.u.t.w расшифровка названия:
 - 180 продолжительность,
 - s. секунды, 
 - c. сокращённо Clock частота GPU, 
 - u. напряжение, 
 - t. температура, 
-- w. потребление Wat *
+- w. потребление Wat
 -----
 # CUDA FP16 Tensor Core Benchmark with Telemetry
 
