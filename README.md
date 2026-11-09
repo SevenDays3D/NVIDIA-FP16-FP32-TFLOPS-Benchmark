@@ -24,11 +24,12 @@ A lightweight, sustained-load benchmark for measuring FP16 Tensor Core performan
 2. Download the cuBLAS.and.cuDNN_CUDA12_win_v3.7z archive and unzip the contents into the TensorBench folder next to the GPU_Benchmark_180s.c.u.t.w.exe file.
 3. Run the GPU_Benchmark_180s.c.u.t.w.exe file.
 
-*Note: For accurate voltage and power readings, run the executable as Administrator.
-  The benchmark uses FP16 matrix multiplication with Tensor Cores through the cuBLAS library. The test ran continuously for 180 seconds.
-  Minor follow-up: I also tested a hard lock at 1605 MHz / 0.750 V. 
-Result: Average performance slightly increased to 37.219 TFLOPS (48,570 total GEMMs vs 48,390 previously) with zero micro-dips. 
-Conclusion: A slightly lower but strictly stable clock yields better average throughput than targeting the absolute edge of the OCP limit.*
+*Note: 
+- **For accurate voltage and power readings, run the executable as Administrator.
+- **The benchmark uses FP16 matrix multiplication with Tensor Cores through the cuBLAS library. The test ran continuously for 180 seconds.
+- **Minor follow-up: I also tested a hard lock at 1605 MHz / 0.750 V. 
+- **Result: Average performance slightly increased to 37.219 TFLOPS (48,570 total GEMMs vs 48,390 previously) with zero micro-dips. 
+- **Conclusion: A slightly lower but strictly stable clock yields better average throughput than targeting the absolute edge of the OCP limit.*
 
 ## Example Output
 ```text
