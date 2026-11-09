@@ -1,4 +1,4 @@
-# CUDA FP16 FP32 Tensor Core Benchmark with Telemetry
+# NVIDIA FP16 FP32 TFLOPS Benchmark with Telemetry
 - Лёгкий бенчмарк для длительного тестирования вычислительной производительности графических процессоров NVIDIA в режимах FP16 и FP32 с использованием матричных операций GEMM через библиотеку cuBLAS.
 
 - Бенчмарк проводит отдельные тесты в обоих режимах: FP16 с использованием тензорных ядер (Tensor Cores) и FP32 с использованием CUDA-ядер (CUDA Cores). Это позволяет непосредственно сравнить производительность GPU в двух форматах вычислений и определить соотношение между ними.
@@ -20,7 +20,7 @@
 - t. температура *C, 
 - w. потребление Wat.
 -----
-# CUDA FP16 FP32 Tensor Core Benchmark with Telemetry
+# NVIDIA FP16 FP32 TFLOPS Benchmark with Telemetry
 
 A lightweight benchmark for sustained GPU performance testing on NVIDIA graphics cards in FP16 and FP32 modes, using GEMM matrix operations through the cuBLAS library.
 
